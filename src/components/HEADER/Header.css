@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    /* align-items: flex-start; */
+}
+
+.navbar .content {
+    display: flex;
+    padding: 37px 102px 36px 49px;
+    height: 110px;
+    width: 900px;
+    gap: 800px;
+}
+
+.content .links {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.content .links .link {
+    display: flex;
+}
+
+.content .links .link a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: .5s ease-out;
+}
+
+.content .links .link a h2 {
+    color: var(--primary-color);
+    font-family: var(--grotesk-family);
+    font-size: 24.867px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content .links .link a.active {
+    margin-bottom: 12.4px;
+    border-bottom: 2px solid var(--primary-color);
+    transition: .2s ease-out;
+
+}
