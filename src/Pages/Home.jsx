@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useRef, useState} from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import '../styles/Home.css';
+import Faq from '../assets/data/faq.js';
 
 import {Link} from 'react-router-dom';
 import { Container } from "react-bootstrap";
@@ -11,8 +12,29 @@ import Projects from '../assets/data/projects.js';
 
 import HomeImg from '../assets/images/home_img.png';
 import LinkImg from '../assets/images/link_img.png';
+import ScrollImg from '../assets/images/scroll_img.png';
 
 const Home = () => {
+
+    const [toggle, setToggle] = useState(true)
+    const [toggle_1, setToggle_1] = useState(true)
+    const [toggle_2, setToggle_2] = useState(true);
+
+    const toggleRef = useRef();
+    const toggleRef_1 = useRef();
+    const toggleRef_2 = useRef();
+
+    const toggleText = () => {
+        setToggle(!toggle);
+    }
+
+    const toggleText_1 = () => {
+        setToggle_1(!toggle_1)
+    }
+
+    const toggleText_2 = () => {
+        setToggle_2(!toggle_2)
+    }
 
     return <>
         <div className="home_area">
@@ -140,10 +162,85 @@ const Home = () => {
                                     </h4>
 
                                     <div className="scrolls">
-                                    
+                                        
+                                        <div className="item">
+                                            
+                                            <div className="title">
+
+                                                <div className="head">
+                                                    <h4>①   Branding / Logo</h4>
+
+                                                    <div className={`scroll_img ${toggle ? '' : 'rot_scroll_img'}`} ref={toggleRef} onClick={toggleText}>
+                                                        <img src={ScrollImg} />     
+                                                    </div>
+                                                </div>
+
+                                                <div className="line"></div>
+
+                                            </div>
+
+                                            <div className={`para ${toggle ? 'none' : ''}`}>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi sed pulvinar rutrum tempor. Etiam duis massa elementum, etiam cras tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi sed pulvinar rutrum tempor. Etiam duis massa elem Starting at € 2,450
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="item">
+                                            
+                                            <div className="title">
+
+                                                <div className="head">
+                                                    <h4>②   Packaging</h4>
+
+                                                    <div className={`scroll_img ${toggle_1 ? '' : 'rot_scroll_img'}`} ref={toggleRef_1} onClick={toggleText_1}>
+                                                        <img src={ScrollImg} />     
+                                                    </div>
+                                                </div>
+
+                                                <div className="line"></div>
+
+                                            </div>
+
+                                            <div className={`para ${toggle_1 ? 'none' : ''}`}>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi sed pulvinar rutrum tempor. Etiam duis massa elementum, etiam cras tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi sed pulvinar rutrum tempor. Etiam duis massa elem Starting at € 2,450
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="item">
+                                            
+                                            <div className="title">
+
+                                                <div className="head">
+                                                    <h4>③   Websites</h4>
+
+                                                    <div className={`scroll_img ${toggle_2 ? '' : 'rot_scroll_img'}`} ref={toggleRef_2} onClick={toggleText_2}>
+                                                        <img src={ScrollImg} />     
+                                                    </div>
+                                                </div>
+
+                                                <div className="line"></div>
+
+                                            </div>
+
+                                            <div className={`para ${toggle_2 ? 'none' : ''}`}>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi sed pulvinar rutrum tempor. Etiam duis massa elementum, etiam cras tristique. Lorem ipsum dolor sit amet, Etiam duis massa elem Starting at € 2,450
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        
                                     </div>
+                                        
+
 
                                 </div>
+
                             </div>
 
                         </div>

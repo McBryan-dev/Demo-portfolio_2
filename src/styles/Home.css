@@ -268,7 +268,7 @@
     animation: fade-in linear forwards;
     animation-timeline: view();
     animation-range-start: cover;
-    animation-range-end: 700px;
+    animation-range-end: 500px;
 
 }
 
@@ -311,7 +311,7 @@
 }
 
 .content .about_sect .content .text .para p {
-    color: #000;
+    color: var(--primary-color);
     font-family: var(--grotesk-family);
     font-size: 30px;
     font-style: normal;
@@ -320,18 +320,113 @@
 }
 
 .content .about_sect .content .text .faq {
+    display: flex;
+    flex-direction: column;
     width: 535px;
     height: 385px;
     flex-shrink: 0;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .content .about_sect .content .text .faq h4 {
-    color: #000;
+    color: var(--primary-color);
     font-family: var(--grotesk-family);
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.content .about_sect .content .text .faq .scrolls{
+    display: flex;
+    width: 535px;
+    height: 385px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.content .about_sect .content .faq .scrolls .item  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content .about_sect .content .faq .scrolls .item .title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content .about_sect .content .faq .scrolls .item .title .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content .about_sect .content .faq .scrolls .item .title .scroll_img {
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+    transition: .5s ease-out;
+}
+
+.content .about_sect .content .faq .scrolls .item .title .rot_scroll_img {
+    transform: rotate(180deg);
+    transition: .5s ease-out;
+}
+
+.content .about_sect .content .faq .scrolls .item .title .head h4 {
+    color: var(--primary-color);
+    font-family: var(--grotesk-family);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+.content .about_sect .content .text .faq .scrolls .item .para {
+    display: flex;
+    width: 578px;
+    height: 110px;
+    flex-shrink: 0;
+    transition: .5s ease-out;
+    animation: smooth linear;
+}
+
+@keyframes smooth {
+    0% {
+        scale: 0 0;
+    }
+
+    50% {
+        scale: .5 .5;
+    }
+
+    100% {
+        scale: 1 1;
+    }
+}
+
+.content .about_sect .content .text .faq .scrolls .item .none {
+    display: none;
+    transition: .5s ease-out; 
+}
+
+.content .about_sect .content .text .faq .scrolls .item .para p {
+    color: var(--primary-color);
+    font-family: var(--grotesk-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    animation: smooth;
+}
+
+.line {
+    width: 642px;
+    height: 2px;
+    background: var(--primary-color)
 }
 
 /* ABOUT_SECT_END */
