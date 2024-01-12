@@ -3,7 +3,6 @@ import React, {useRef, useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import '../styles/Home.css';
-import Faq from '../assets/data/faq.js';
 
 import {Link} from 'react-router-dom';
 import { Container } from "react-bootstrap";
@@ -170,7 +169,7 @@ const Home = () => {
                                                 <div className="head">
                                                     <h4>①   Branding / Logo</h4>
 
-                                                    <div className={`scroll_img ${toggle ? '' : 'rot_scroll_img'}`} ref={toggleRef} onClick={toggleText}>
+                                                    <div className={`scroll_img ${toggle ? '' : 'rot_scroll_img'}`} ref={toggleRef} onMouseEnter={toggleText} onMouseLeave={toggleText}>
                                                         <img src={ScrollImg} />     
                                                     </div>
                                                 </div>
@@ -194,7 +193,7 @@ const Home = () => {
                                                 <div className="head">
                                                     <h4>②   Packaging</h4>
 
-                                                    <div className={`scroll_img ${toggle_1 ? '' : 'rot_scroll_img'}`} ref={toggleRef_1} onClick={toggleText_1}>
+                                                    <div className={`scroll_img ${toggle_1 ? '' : 'rot_scroll_img'}`} ref={toggleRef_1} onMouseEnter={toggleText_1} onMouseLeave={toggleText_1}>
                                                         <img src={ScrollImg} />     
                                                     </div>
                                                 </div>
@@ -218,7 +217,7 @@ const Home = () => {
                                                 <div className="head">
                                                     <h4>③   Websites</h4>
 
-                                                    <div className={`scroll_img ${toggle_2 ? '' : 'rot_scroll_img'}`} ref={toggleRef_2} onClick={toggleText_2}>
+                                                    <div className={`scroll_img ${toggle_2 ? '' : 'rot_scroll_img'}`} ref={toggleRef_2} onMouseEnter={toggleText_2} onMouseLeave={toggleText_2}>
                                                         <img src={ScrollImg} />     
                                                     </div>
                                                 </div>
@@ -236,14 +235,21 @@ const Home = () => {
                                         </div>
                                         
                                     </div>
-                                        
-
 
                                 </div>
 
                             </div>
 
+                            <div className="slide">
+
+                                <p>
+                                Photoshop       •     Illustrator       •     Webflow       •     Figma       •     Indesign       •     Premiere Pro       •     Cinema 4D       •     Sketch  Photoshop       •     Illustrator  <span>•     Webflow       •     Figma       •     Indesign       •     Premiere Pro       •     Cinema 4D       •     Sketch</span> 
+                                </p>
+
+                            </div>
+
                         </div>
+
 
                     </div>
 
