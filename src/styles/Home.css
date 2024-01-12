@@ -432,8 +432,51 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 1166px;
+    width: 1284px;
     height: 27px;
+    gap: 22px;
 }
 
 /* ABOUT_SECT_END */
+
+
+
+/* CLIENT_SECT */
+
+.content .client_sect {
+    width: 1284px;
+    height: 458px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    transform-origin: right;
+
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 500px;
+
+}
+
+.content .client_sect .section_title {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+}
+
+.content .client_sect .section_title .title {
+    width: 586.49px;
+}
+
+.content .client_sect .section_title .title h3 {
+    color: var(--primary-color);
+    font-family: var(--grotesk-family);
+    font-size: 45.063px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+ 
+/* CLIENT_SECT_END */

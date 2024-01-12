@@ -1,6 +1,8 @@
 import React, {useRef, useState} from 'react';
+import Carousel from 'react-elastic-carousel';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Slider from 'react-slick';
 
 import '../styles/Home.css';
 
@@ -8,6 +10,7 @@ import {Link} from 'react-router-dom';
 import { Container } from "react-bootstrap";
 
 import Projects from '../assets/data/projects.js';
+import Item from '../item.js'
 
 import HomeImg from '../assets/images/home_img.png';
 import LinkImg from '../assets/images/link_img.png';
@@ -34,6 +37,13 @@ const Home = () => {
     const toggleText_2 = () => {
         setToggle_2(!toggle_2)
     }
+
+    const breakPoints = [
+        { width: 1, itemsToShow: 1 },
+        { width: 550, itemsToShow: 1 },
+        { width: 768, itemsToShow: 1 },
+        { width: 1200, itemsToShow: 1 }
+    ]
 
     return <>
         <div className="home_area">
@@ -243,21 +253,51 @@ const Home = () => {
                             <div className="slide">
 
                                 <p>
-                                Photoshop       •     Illustrator       •     Webflow       •     Figma       •     Indesign       •     Premiere Pro       •     Cinema 4D       •     Sketch  Photoshop       •     Illustrator  <span>•     Webflow       •     Figma       •     Indesign       •     Premiere Pro       •     Cinema 4D       •     Sketch</span> 
+                                   <span>Photoshop</span>       •    <span> Illustrator</span>       •     <span>Webflow </span> • <span>Figma </span>    • <span>Indesign </span>      • <span>Premiere Pro</span> • <span> Cinema</span> <span>4D</span> • <span> Sketch</span> 
                                 </p>
 
                             </div>
 
                         </div>
 
+                    </div>
+
+                    <div className="client_sect">
+
+                        <div className="section_title">
+                            <div className="title">
+                                <h3>What Clients Say</h3>
+                            </div>
+
+                            <div className="seperator"></div>
+                        </div>
+
+                        <div className="carousel">
+                            <Carousel breakPoints={breakPoints}>
+
+                                <Item>One</Item>
+                                <Item>Two</Item>
+                                <Item>Three</Item>
+                                <Item>Four</Item>
+                                <Item>Five</Item>
+                                <Item>Six</Item>
+                                <Item>Seven</Item>
+                                <Item>Eight</Item>
+
+                            </Carousel>
+
+
+                        </div>
 
                     </div>
+
 
                 </div>
                 
             </div>
 
         </div>
+
     </>
 
 }
