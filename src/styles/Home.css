@@ -529,12 +529,41 @@
 }
 
 .content .client_sect .carousel .container .content .office {
-    display: flex;
     gap: 10px;
 }
 
-.content .client_sect .carousel .container .content .office {
-    
+.content .client_sect .carousel .container .content .office h4{
+    color: var(--primary-color);
+    text-align: center;
+    font-family: var(--grotesk-family);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
+
+.content .client_sect .carousel .container .content .office h5 {
+    color: var(--primary-color);
+    text-align: center;
+    font-family: var(--grotesk-family);
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container .client_sect .carousel .container .slick-prev,
+.container .client_sect .carousel .container .slick-next  {
+    width: 100px;
+    height: 100px;
+    background-color: #F5F5F5;
+    border: none;
+    padding: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+
 
 /* CLIENT_SECT_END */

@@ -42,9 +42,11 @@ const Home = () => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 800,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000
     };
 
     return <>
@@ -287,7 +289,7 @@ const Home = () => {
 
                                                 <div className="office">
                                                     <h4>{testimony.name}</h4>
-                                                    <h4>{testimony.role}</h4>
+                                                    <h5>{testimony.role}</h5>
                                                 </div>
 
                                             </div>
@@ -299,6 +301,7 @@ const Home = () => {
 
                     </div>
 
+                    
 
                 </div>
                 

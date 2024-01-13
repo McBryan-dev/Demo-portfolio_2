@@ -10,7 +10,7 @@ const testimonial = [
         role: "Oga mi"
     },
     {
-        para: " “I rehired Arnau to do some additional design work for my private label brand. As a champion league winner i want liverpool, chelsea, tottenham, ARSENAl, and all other subsequent clubs to know that they suck” ",
+        para: " “I rehired Arnau to do some additional design work for my private label brand. As a champion league winner i want liverpool, chelsea, tottenham, ARSENAL, and all other subsequent clubs to know that they suck” ",
         name: "_ Kevin De Bruyne",
         role: "Baller"
     }
