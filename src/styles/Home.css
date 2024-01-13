@@ -478,5 +478,63 @@
     line-height: normal;
 }
 
- 
+.content .client_sect .carousel {
+    display: flex;
+    width: 1284px;
+    height: 210px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content .client_sect .carousel .container {
+    width: 1284px;
+    height:210px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.content .client_sect .carousel .container .content {
+    display: flex;
+    width: 823px;
+    height: 210px;
+    gap: 20px;
+    justify-content: center;
+    margin-left: auto;
+    align-items: center;
+    text-align: center;
+    background: #F5F5F5;
+}
+
+.content .client_sect .carousel .container .content .para {
+    display: flex;
+    text-align: center;
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.content .client_sect .carousel .container .content .para p {
+    color: var(--primary-color);
+    text-align: center;
+    font-family: var(--grotesk-family);
+    font-size: 30.06px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content .client_sect .carousel .container .content .office {
+    display: flex;
+    gap: 10px;
+}
+
+.content .client_sect .carousel .container .content .office {
+    
+}
+
 /* CLIENT_SECT_END */

@@ -1,16 +1,17 @@
 import React, {useRef, useState} from 'react';
-import Carousel from 'react-elastic-carousel';
+
+import '../styles/Home.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Slider from 'react-slick';
-
-import '../styles/Home.css';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 import {Link} from 'react-router-dom';
 import { Container } from "react-bootstrap";
 
 import Projects from '../assets/data/projects.js';
-import Item from '../item.js'
+import Testimonial from '../assets/data/testimonial.js';
 
 import HomeImg from '../assets/images/home_img.png';
 import LinkImg from '../assets/images/link_img.png';
@@ -38,12 +39,13 @@ const Home = () => {
         setToggle_2(!toggle_2)
     }
 
-    const breakPoints = [
-        { width: 1, itemsToShow: 1 },
-        { width: 550, itemsToShow: 1 },
-        { width: 768, itemsToShow: 1 },
-        { width: 1200, itemsToShow: 1 }
-    ]
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    };
 
     return <>
         <div className="home_area">
@@ -273,20 +275,26 @@ const Home = () => {
                         </div>
 
                         <div className="carousel">
-                            <Carousel breakPoints={breakPoints}>
+                            <div className="container">
+                                <Slider {...settings}>
+                                    {
+                                        Testimonial?.map((testimony) => (
+                                            <div className="content" key={testimony.id}>
 
-                                <Item>One</Item>
-                                <Item>Two</Item>
-                                <Item>Three</Item>
-                                <Item>Four</Item>
-                                <Item>Five</Item>
-                                <Item>Six</Item>
-                                <Item>Seven</Item>
-                                <Item>Eight</Item>
+                                                <div className="para">
+                                                    <p>{testimony.para}</p>
+                                                </div>
 
-                            </Carousel>
+                                                <div className="office">
+                                                    <h4>{testimony.name}</h4>
+                                                    <h4>{testimony.role}</h4>
+                                                </div>
 
-
+                                            </div>
+                                        ))
+                                    }
+                                </Slider>
+                            </div>
                         </div>
 
                     </div>
