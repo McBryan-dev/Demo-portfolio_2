@@ -12,6 +12,7 @@ import { Container } from "react-bootstrap";
 
 import Projects from '../assets/data/projects.js';
 import Testimonial from '../assets/data/testimonial.js';
+import Carousel from '../shared/Carousel.jsx';
 
 import HomeImg from '../assets/images/home_img.png';
 import LinkImg from '../assets/images/link_img.png';
@@ -278,24 +279,9 @@ const Home = () => {
 
                         <div className="carousel">
                             <div className="container">
-                                <Slider {...settings}>
-                                    {
-                                        Testimonial?.map((testimony) => (
-                                            <div className="content" key={testimony.id}>
+                                
+                                <Carousel />
 
-                                                <div className="para">
-                                                    <p>{testimony.para}</p>
-                                                </div>
-
-                                                <div className="office">
-                                                    <h4>{testimony.name}</h4>
-                                                    <h5>{testimony.role}</h5>
-                                                </div>
-
-                                            </div>
-                                        ))
-                                    }
-                                </Slider>
                             </div>
                         </div>
 

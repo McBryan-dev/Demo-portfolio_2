@@ -1,4 +1,5 @@
 /* --primary-color: #000;
+   --bg-color: #F5F5F5;
   --secondary-color: rgb(255, 196, 0);
   --grotesk-family: 'Space Grotesk', sans-serif; */
 
@@ -154,7 +155,7 @@
     font-weight: 400;
     line-height: normal;
     padding: 5px 15px;
-    border: 1.5px solid black;
+    border: 1.5px solid var(--primary-color);
     border-radius: 50%;
 }
 /* PROJECT_SECT_END */
@@ -489,33 +490,20 @@
 
 .content .client_sect .carousel .container {
     width: 1284px;
-    height:210px;
+    height: 210px;
     flex-shrink: 0;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-}
-
-.content .client_sect .carousel .container .content {
-    display: flex;
-    width: 823px;
-    height: 210px;
-    gap: 20px;
-    justify-content: center;
-    margin-left: auto;
-    align-items: center;
-    text-align: center;
-    background: #F5F5F5;
 }
 
 .content .client_sect .carousel .container .content .para {
     display: flex;
     text-align: center;
-    width: 800px;
+    width: 823px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    height: 100%;
+    height: 210px;
 }
 
 .content .client_sect .carousel .container .content .para p {
