@@ -11,7 +11,6 @@ import {Link} from 'react-router-dom';
 import { Container } from "react-bootstrap";
 
 import Projects from '../assets/data/projects.js';
-import Testimonial from '../assets/data/testimonial.js';
 import Carousel from '../shared/Carousel.jsx';
 
 import HomeImg from '../assets/images/home_img.png';
@@ -287,7 +286,69 @@ const Home = () => {
 
                     </div>
 
-                    
+                    <div className="email_sect">
+
+                        <div className="section_title">
+                            <div className="title">
+                                <h3>Say Hello</h3>
+                            </div>
+
+                            <div className="seperator"></div>
+                        </div>
+
+                        <div className="content">
+
+                            <div className="text">
+                                <div className="para_1">
+                                    <p>
+                                        Looking to start a new project or just want to say hi? Send me an email and I’ll do my best to reply within 24 hrs!
+                                    </p>
+                                </div>
+
+                                <div className="para_2">
+                                    <p>
+                                        If contact forms aren’t your thing... send me an email at <span>hello@arnau.design</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="form">
+
+                                <form>
+
+                                    <div className="form-group name">
+                                        <div className="name">
+                                            <label>
+                                                <h3>Name *</h3>
+                                            </label>
+
+                                            <div className="inputs">
+                                                <input type="text" placeholder="First Name" />
+                                                <input type="text" placeholder="Last Name" />
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group inquiries">
+
+                                        <div className="inquiry">
+                                            <label>
+                                                <h3>Inquiry *</h3>
+                                            </label>
+
+                                            <div className="input"></div>
+                                        </div>
+                                    
+                                    </div>
+
+                                </form>
+
+                            </div>
+
+                        </div>
+
+                    </div>
 
                 </div>
                 
