@@ -10,7 +10,9 @@
   --grotesk-family: 'Space Grotesk', sans-serif;
 }
 
-/* * {
+* {
   background-color: #F5F5F5;
-  
-} */
+  margin: 0;
+  padding: 0;
+  /* height: 100%; */
+}
