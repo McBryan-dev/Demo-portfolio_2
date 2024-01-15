@@ -8,6 +8,7 @@ import {Link} from 'react-router-dom';
 import { Container } from "react-bootstrap";
 
 import Projects from '../assets/data/projects.js';
+import Newsletter from '../shared/Newsletter.jsx'
 import Carousel from '../shared/Carousel.jsx';
 import Blogs from '../assets/data/blogs.js'
 
@@ -438,7 +439,12 @@ const Home = () => {
 
                         <div className="wavy_line"><h6>h1hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</h6></div>
                     
-                        <div className="newsletter"></div>
+                        <div className="newsletter">
+
+                            <Newsletter />
+
+                        </div>
+                        
                     </div>
 
                 </div>

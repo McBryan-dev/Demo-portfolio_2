@@ -1,5 +1,7 @@
 .navbar{
     display: flex;
+    width: 100%;
+    align-items: center;
     /* align-items: flex-start; */
 }
 
@@ -7,8 +9,8 @@
     display: flex;
     padding: 37px 102px 36px 49px;
     height: 110px;
-    width: 900px;
-    gap: 800px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .content .links {
