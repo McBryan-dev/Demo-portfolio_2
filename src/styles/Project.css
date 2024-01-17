@@ -1,0 +1,330 @@
+@keyframes fade-in {
+    from{scale: .8; opacity: .5;}
+    to{scale: 1; opacity: 1;}
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project .content {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 122px;
+}
+
+.project .content .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 122px;
+}
+
+.content .works {
+    display: flex;
+    align-items: center;
+    gap: 122px;
+    justify-content: center;
+}
+
+.content .project_image {
+    display: flex;
+    align-items: center;
+    width: 1284px;
+    height: 623px;
+}
+
+.content .project_image a {
+    align-items: center;
+    text-decoration: none;
+}
+
+.content .project_image a img {
+    width: 1284px;
+    height: 623px;
+    position: relative;
+    transition: .5s ease-out;
+    scale: 1;
+}
+
+.content .project_image a img:hover {
+    scale: 1;
+    animation: jiggle linear;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+
+    transition: .5s ease-out;
+}
+
+@keyframes jiggle {
+    from{scale: 1;}
+    to{scale: 1.02;}
+}
+
+.content .works {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .works .desc {
+    display: flex;
+    width: 1242px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content .works .desc .title {
+    display: flex;
+    align-items: flex-start;
+    transform-origin: left;
+
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 600px;
+}
+
+.content .works .desc .title h4 {
+    color: var(--primary-color);
+    font-family:  var(--grotesk-family);
+    font-size: 45.063px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content .works .desc .para {
+    width: 618px;
+    height: 175px;
+    flex-shrink: 0;
+    transform-origin: right;
+
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 600px;
+}
+
+.content .works .desc .para p {
+    color: var(--primary-color);
+    font-family:  var(--grotesk-family);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content .creation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 122px;
+}
+
+.content .creation .work_1_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 121px;
+}
+
+.content .creation .work_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 122px;
+}
+
+.content .creation .work_1 .work_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1284px;
+    height: 623px;
+    position: relative;
+    scale: 1;
+
+    animation: fade-in linear;
+    /* animation-fill-mode: forwards; */
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 700px;
+}
+
+.content .creation .work_1 .work_image img {
+    width: 1284px;
+    height: 623px;
+}
+
+.content .creation .work_1 .desc {
+    display: flex;
+    width: 1242px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content .creation .work_1 .desc .title {
+    display: flex;
+    align-items: flex-start;
+    transform-origin: left;
+
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 600px;
+}
+
+.content .creation .work_1 .desc .title h4 {
+    color: var(--primary-color);
+    font-family:  var(--grotesk-family);
+    font-size: 45.063px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content .creation .work_1 .desc .para {
+    width: 618px;
+    height: 175px;
+    flex-shrink: 0;
+    transform-origin: right;
+
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 600px;
+}
+
+.content .creation .work_1 .desc .para p {
+    color: var(--primary-color);
+    font-family:  var(--grotesk-family);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content .creation .work_2 {
+    display: flex;
+    flex-direction: row;
+    gap: 78px;
+}
+
+.content .creation .work_2 .image_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 603px;
+    height: 623px;
+
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 500px;
+}
+
+.content .creatiom .work_2 .image_1 img {
+    width: 603px;
+    height: 623px;
+}
+
+.content .creation .work_2 .image_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 603px;
+    height: 623px;
+
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 500px;
+}
+
+.content .creatiom .work_2 .image_2 img {
+    width: 603px;
+    height: 623px;
+}
+
+.content .creation .work_3 {
+    display: flex;
+    width: 1284px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 47px;
+}
+
+.content .creation .work_3 .title {
+    display: flex;
+    align-items: flex-start;
+    transform-origin: left;
+
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 300px;
+}
+
+.content .creation .work_3 .title h4 {
+    color: var(--primary-color);
+    text-align: center;
+    font-family: var(--grotesk-family);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.content .creation .work_3 .images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+}
+
+.content .creation .work_3 .images .work {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 300px;
+}
+
+.content .creation .work_3 .images .work .work_img {
+    display: flex;
+    width: 391.523px;
+    height: 194px;
+    flex-shrink: 0;
+}
+
+.content .creation .work_3 .images .work .work_img img {
+    width: 391.523px;
+    height: 194px;
+    flex-shrink: 0;
+}
+
+.content .creation .work_3 .images .work .text {
+    width: 189.682px;
+}
+
+.content .creation .work_3 .images .work .text p {
+    color: var(--primary-color);
+    font-family: var(--grotesk-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

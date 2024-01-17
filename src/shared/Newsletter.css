@@ -47,6 +47,7 @@
     width: 380px;
     height: 45px;
     flex-shrink: 0;
+    padding: 12px;
     border: 2px solid var(--border-color);
     color: var(--input-text-color);
     font-family: var(--grotesk-family);
@@ -74,11 +75,11 @@
     height: 45px;
     flex-shrink: 0;
     background: var(--border-color);
-    color: white;
+    color: #fff;
 }
 
-.newsletter .input button img {
-    color: var(--bg-color);
+.newsletter .input button i {
+    background: var(--border-color);
 }
 
 .newsletter .caption {

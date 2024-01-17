@@ -12,7 +12,7 @@ import Newsletter from '../shared/Newsletter.jsx'
 import Carousel from '../shared/Carousel.jsx';
 import Blogs from '../assets/data/blogs.js'
 
-import HomeImg from '../assets/images/home_img.png';
+import HomeImg from '../assets/images/portfolio_img.jpg';
 import LinkImg from '../assets/images/link_img.png';
 import ScrollImg from '../assets/images/scroll_img.png';
 import SeeNowImg from '../assets/images/see_now.png'
@@ -58,7 +58,7 @@ const Home = () => {
 
                     <div className="text">
                        <p>
-                        I'm Arnau Ros, a graphic designer & content creator based in Barcelona. <span>Available</span> for freelance & collaborations. 
+                        I'm Okononfua Bryan, a Frontend web developer & content creator based in the UK. <span>Available</span> for freelance & collaborations with other interested developers.
                        </p>
                     </div>
 
@@ -444,7 +444,7 @@ const Home = () => {
                             <Newsletter />
 
                         </div>
-                        
+
                     </div>
 
                 </div>
