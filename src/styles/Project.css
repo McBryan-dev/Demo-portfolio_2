@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 122px;
 }
 
 .project .content {
@@ -27,7 +28,7 @@
 .content .works {
     display: flex;
     align-items: center;
-    gap: 122px;
+    gap: 140px;
     justify-content: center;
 }
 
@@ -48,26 +49,12 @@
     height: 623px;
     position: relative;
     transition: .5s ease-out;
-    scale: 1;
-}
-
-.content .project_image a img:hover {
-    scale: 1;
-    animation: jiggle linear;
-    animation-duration: .2s;
-    animation-fill-mode: forwards;
-
-    transition: .5s ease-out;
-}
-
-@keyframes jiggle {
-    from{scale: 1;}
-    to{scale: 1.02;}
 }
 
 .content .works {
     display: flex;
     flex-direction: column;
+    padding-bottom: 122px;
 }
 
 .content .works .desc {
@@ -85,7 +72,7 @@
     animation: fade-in linear;
     animation-timeline: view();
     animation-range-start: cover;
-    animation-range-end: 600px;
+    animation-range-end: 800px;
 }
 
 .content .works .desc .title h4 {
@@ -99,7 +86,7 @@
 
 .content .works .desc .para {
     width: 618px;
-    height: 175px;
+    height: 275px;
     flex-shrink: 0;
     transform-origin: right;
 
@@ -118,6 +105,10 @@
     line-height: normal;
 }
 
+.content .works .desc .para p  span {
+    font-weight: bolder;
+}
+
 .content .creation {
     display: flex;
     flex-direction: column;
@@ -131,7 +122,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 121px;
+    gap: 242px;
 }
 
 .content .creation .work_1 {
@@ -193,7 +184,7 @@
 
 .content .creation .work_1 .desc .para {
     width: 618px;
-    height: 175px;
+    height: 275px;
     flex-shrink: 0;
     transform-origin: right;
 
@@ -211,6 +202,10 @@
     font-weight: 400;
     line-height: normal;
 }
+
+ span {
+    font-weight: bolder;
+ }
 
 .content .creation .work_2 {
     display: flex;
@@ -231,7 +226,7 @@
     animation-range-end: 500px;
 }
 
-.content .creatiom .work_2 .image_1 img {
+.content .creation .work_2 .image_1 img {
     width: 603px;
     height: 623px;
 }

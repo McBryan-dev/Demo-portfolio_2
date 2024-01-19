@@ -21,7 +21,7 @@ const Project = () => {
                 <div className="works">
 
                     <div className="project_image">
-                        <Link to="https://meta-blog-project.onrender.com" target="_blank">
+                        <Link to="https://meta-blog-site.onrender.com" target="_blank">
                             <img src= {WorkImg1} alt="" />
                         </Link>
                     </div>
@@ -29,17 +29,22 @@ const Project = () => {
                     <div className="desc">
 
                         <div className="title">
-                            <h4>Demo-Blog Project</h4>
+                            <h4>Meta-Blog Project</h4>
                         </div>
 
                         <div className="para">
-                            <p>Lorem ipsum dolor sit amet, 
-                                consectetur adipiscing elit. 
-                                Urna feugiat maecenas eu imperdiet 
-                                varius nec pulvinar sem ultrices. 
-                                Adipiscing viverra mauris, nunc 
-                                nisl sociis dui. Sagittis, curabitur
-                                 libero urna interdum metus.
+                            <p>
+                                🌍 <span>Meta-Blogging Unleashed:</span> Dive into
+                                    the heart of our meta-blog, where we 
+                                    transcend conventional travel writing. 
+                                    Unveiling not just the destinations, 
+                                    but the essence of the journey itself, 
+                                    our meta-blog crafts narratives that 
+                                    resonate beyond the ordinary. Immerse 
+                                    yourself in a tapestry of vivid 
+                                    descriptions, personal reflections, 
+                                    and cultural insights that breathe 
+                                    life into each adventure.
                             </p>
                         </div>
 
@@ -57,7 +62,7 @@ const Project = () => {
                         <div className="work_1">
 
                             <div className="work_image">
-                                <Link>
+                                <Link to="https://travel-guide-c50r.onrender.com" target="_blank" >
                                     <img src={WorkImg2} alt="" />
                                 </Link>
                             </div>
@@ -69,13 +74,16 @@ const Project = () => {
                                 </div>
 
                                 <div className="para">
-                                    <p>Lorem ipsum dolor sit amet, 
-                                        consectetur adipiscing elit. 
-                                        Urna feugiat maecenas eu imperdiet 
-                                        varius nec pulvinar sem ultrices. 
-                                        Adipiscing viverra mauris, nunc 
-                                        nisl sociis dui. Sagittis, curabitur
-                                        libero urna interdum metus.
+                                    <p>
+                                        🤝<span>Community Of Explorers:</span>  Join a vibrant community of fellow explorers
+                                        who share a passion for discovery. Swap stories,
+                                        exchange tips, and connect with like-minded
+                                        individuals who understand the transformative
+                                        power of travel. This isn't just
+                                        a project; it's a community-driven
+                                        platform where every traveler's 
+                                        voice adds to the collective 
+                                        symphony of global exploration.
                                     </p>
                                 </div>
 

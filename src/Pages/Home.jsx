@@ -58,7 +58,7 @@ const Home = () => {
 
                     <div className="text">
                        <p>
-                        I'm Okononfua Bryan, a Frontend web developer & content creator based in the UK. <span>Available</span> for freelance & collaborations with other interested developers.
+                        I'm Okononfua Bryan, a Frontend web developer & aspiring content creator based in the UK. <span>Available</span> for freelance & collaborations with other web developers.
                        </p>
                     </div>
 
@@ -119,18 +119,16 @@ const Home = () => {
 
                             <div className="text">
                                 <div className="para_1">
-                                    <p>
-                                    Join my YouTube channel where I show my design thinking, my process, and my personality. The channel has helped over 200K designers become more proficient in the tools I use everyday, Figma, Webflow & more. Join the journey!
-                                    </p>
+                                    <p> I'm passionate about both content creation and frontend development. The marriage of creative storytelling and technical finesse in frontend development fuels my excitement. I'm eager to contribute innovative digital experiences seamlessly.</p>
                                 </div>
-
+                                
                                 <div className="para_2">
-                                <Link to="/contact">
-                                        <div className="links">
-                                            <p>Get in contact about a sponsorship</p> 
-                                            <div> <img src={LinkImg} alt="" /> </div>
-                                        </div>
-                                </Link>
+                                    <Link to="/contact">
+                                            <div className="links">
+                                                <p>Get in contact about a sponsorship</p> 
+                                                <div> <img src={LinkImg} alt="" /> </div>
+                                            </div>
+                                    </Link>
                                 </div>
 
                             </div>
@@ -164,7 +162,9 @@ const Home = () => {
                             <div className="text">
                                 <div className="para">
                                     <p>
-                                    I'm a product designer working on various projects on a wide range of clients. My skillset lies on creating branding packages & websites to deliver the full online experience for new and also veteran businesses.  You can often find me creating videos about design over on YouTube, or sharing my thoughts on my podcast, Dialogue With Designers . I'm passionate about giving back and teaching what I know to the next generation of designers.‍
+                                    I'm a Frontend developer working on various projects on a wide range of clients. My skillset lies on implementing incredible websites & closing out on great deals to deliver the full online experience for new and also veteran businesses.  
+                                    <br />
+                                    You can often find me creating videos about great websites design over on YouTube, or sharing my thoughts on my podcast, Dialogue With Designers and other Web Developers . I'm passionate about giving back and teaching what I know to the next generation of developer‍s.
                                     </p>
                                 </div>
 
@@ -194,7 +194,9 @@ const Home = () => {
 
                                             <div className={`para ${toggle ? 'none' : ''}`}>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi sed pulvinar rutrum tempor. Etiam duis massa elementum, etiam cras tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi sed pulvinar rutrum tempor. Etiam duis massa elem Starting at € 2,450
+                                                    Developing a cohesive and consistent visual identity for a brand. This involves creating a set of design elements, that collectively represent the brand and its values.
+                                                    <br />
+                                                    Crafting a unique and memorable logo that serves as a visual representation of the brand to the world. 
                                                 </p>
                                             </div>
 
@@ -218,7 +220,11 @@ const Home = () => {
 
                                             <div className={`para ${toggle_1 ? 'none' : ''}`}>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi sed pulvinar rutrum tempor. Etiam duis massa elementum, etiam cras tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi sed pulvinar rutrum tempor. Etiam duis massa elem Starting at € 2,450
+                                                    Producing visually captivating packaging for physical 
+                                                    products. This comprehensive 
+                                                    approach encompasses UI design, responsive design for 
+                                                    diverse platforms and screens, and the creation of appealing 
+                                                    product to to my clients and other companies.                                                
                                                 </p>
                                             </div>
 
@@ -253,7 +259,7 @@ const Home = () => {
                                 </div>
 
                             </div>
-
+                            
                             <div className="slide">
 
                                 <p>
@@ -380,7 +386,7 @@ const Home = () => {
                     </div>
 
 
-                    <div className="blog_sect">
+`                    <div className="blog_sect">
                         
                         <div className="seperator"></div>
 
