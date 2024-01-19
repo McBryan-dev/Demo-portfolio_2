@@ -1,0 +1,91 @@
+/* .footer {
+    display: flex;
+    align-items: center;
+    height: 123.4px;
+    justify-content: center;
+}
+
+.footer .content {
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+} */
+
+.footer {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 123.4px;
+}
+
+.footer .content {
+    display: flex;
+    width: 1284px;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.content .logo_right {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.content .logo_right .logo {
+    display: flex;
+    width: 69px;
+    height: 37px;
+    flex-shrink: 0;
+}
+
+.content .logo_right .logo img {
+    width: 69px;
+    height: 37px;
+}
+
+.content .logo_right .right {
+    width: 310.5px;
+    height: 21.6px;
+    flex-shrink: 0;
+}
+
+.content .logo_right .right h5 {
+    color: var(--cool-gray-500, #6B7280);
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 14.4px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.content .links {
+    display: inline-flex;
+    align-items: center;
+    gap: 21.6px;
+}
+
+.content .links .github_link {
+    display: flex;
+    width: 21.6px;
+    height: 21.6px;
+}
+
+.content .links .github_link a {
+    text-decoration: none;
+    width: 21.6px;
+    height: 21.6px;
+}
+
+.content i {
+    color: var(--primary-color);
+    width:21.6px;
+    height: 21.6px;
+}
+
+.content .links h2 {
+    font-size: 20px;
+    color: var(--cool-gray);
+    font-weight: 400;
+    text-decoration-line: underline;
+}

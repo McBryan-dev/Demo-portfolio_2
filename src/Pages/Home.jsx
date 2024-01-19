@@ -248,7 +248,7 @@ const Home = () => {
 
                                             <div className={`para ${toggle_2 ? 'none' : ''}`}>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi sed pulvinar rutrum tempor. Etiam duis massa elementum, etiam cras tristique. Lorem ipsum dolor sit amet, Etiam duis massa elem Starting at € 2,450
+                                                    Delivering captivating websites with awesome user interface and incredible designs to expand your horizons on what AI can actually bring to life. 
                                                 </p>
                                             </div>
 
