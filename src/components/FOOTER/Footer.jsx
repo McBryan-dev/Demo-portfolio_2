@@ -19,11 +19,11 @@ const Footer = () => {
                     </div>
 
                     <div className="right">
-                        <h5>© 2021 Okononfua Bryan, LLC. All rights reserved.© 2021 Okononfua Bryan, LLC. All rights reserved.</h5>
+                        <h5>© 2024 Okononfua Bryan, LLC. All rights reserved.© 2021 Okononfua Bryan, LLC. All rights reserved.</h5>
                     </div>
                 </div>
 
-                <div className="links">
+                <div className="linker">
 
                     <h2>Find me on:</h2>
 
@@ -33,7 +33,7 @@ const Footer = () => {
                         </Link>
                     </div>
 
-                    <div className="facebook_link">
+                    <div className="facebook_link" terget="_blank">
                         <Link to="https://www.facebook.com/profile.php?id=100088837636710">
                             <i class="fa-brands fa-facebook-f"></i>
                         </Link>

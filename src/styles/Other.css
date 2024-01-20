@@ -1,0 +1,91 @@
+.other {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+@keyframes fade-in{
+    from{scale: .8; opacity: .5;}
+    to{scale: 1; opacity: 1;}
+}
+
+/* .other .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1284px;
+    gap: 164px;
+} */
+
+.other .contnt {
+    display: flex;
+    justify-content: space-between;
+    width: 1284px;
+}
+
+.other .contnt .cont {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 1284px;
+    gap: 100px;
+}
+
+.contnt .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    animation: fade-in linear;
+}
+
+.contnt .image img {
+    display: flex;
+    height: 768px;
+    width: 760px;
+}
+
+.contnt .my_desc {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.contnt .my_desc p {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--grotesk-family);
+    color: var(--primary-color);
+    line-height: 150%;
+}
+
+/* .contnt .my_desc p a {
+    text-decoration: none;
+    color: var(--cool-gray);
+}
+
+.contnt .my_desc p a h2 {
+    font-size: 27px;
+    font-weight: light;
+    font-family: sans-serif;
+    color: var(--cool-gray);
+} */
+
+.contnt .my_desc .link a {
+    text-decoration: none;
+    color:var(--cool-gray);
+}
+
+.contnt .my_desc .link a h2 {
+    font-size: 20px;
+    font-weight: light;
+    line-height: 150%;
+    font-family: sans-serif;
+    color: var(--cool-gray);
+}

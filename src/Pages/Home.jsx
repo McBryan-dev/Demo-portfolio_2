@@ -386,7 +386,7 @@ const Home = () => {
                     </div>
 
 
-`                    <div className="blog_sect">
+                    <div className="blog_sect">
                         
                         <div className="seperator"></div>
 

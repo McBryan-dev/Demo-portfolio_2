@@ -59,19 +59,19 @@
     line-height: 150%;
 }
 
-.content .links {
+.content .linker {
     display: inline-flex;
     align-items: center;
     gap: 21.6px;
 }
 
-.content .links .github_link {
+.content .linker .github_link {
     display: flex;
     width: 21.6px;
     height: 21.6px;
 }
 
-.content .links .github_link a {
+.content .linker .github_link a {
     text-decoration: none;
     width: 21.6px;
     height: 21.6px;
@@ -83,9 +83,15 @@
     height: 21.6px;
 }
 
-.content .links h2 {
+.content .linker h2 {
     font-size: 20px;
     color: var(--cool-gray);
     font-weight: 400;
+    cursor: pointer;
+    transition: 5s ease-out;
+    transition-duration: .5s;
     text-decoration-line: underline;
+    text-decoration-color: var(--primary-color);
+    text-decoration-style: dashed;
+    text-underline-offset: .25em;
 }
