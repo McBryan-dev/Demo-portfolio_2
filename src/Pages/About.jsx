@@ -34,11 +34,11 @@ const About = () => {
                     <div className="content">
                         <div className="para">
                             <p>
-                            I'm a product designer working 
+                            I'm a Frontend Developer working 
                             on various projects on a wide range of clients. My skillset lies on creating branding packages & websites to deliver the full online experience for new and also veteran businesses.
                             <br />
                             <br />
-                            You can often find me creating videos about design over on YouTube, or sharing my thoughts on my podcast, Dialogue With Designers . I'm passionate about giving back and teaching what I know to the next generation of designers.
+                            You can often find me creating videos about frontend development over on YouTube, or sharing my thoughts on my podcast, Dialogue With othr=er Developers . I'm passionate about giving back and teaching what I know to the next generation of designers.
                             </p>
                         </div>
 

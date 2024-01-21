@@ -263,7 +263,7 @@ const Home = () => {
                             <div className="slide">
 
                                 <p>
-                                   <span>Photoshop</span>       •    <span> Illustrator</span>       •     <span>Webflow </span> • <span>Figma </span>    • <span>Indesign </span>      • <span>Premiere Pro</span> • <span> Cinema</span> <span>4D</span> • <span> Sketch</span> 
+                                   <span>HTML</span>       •    <span> CSS</span>       •     <span>REACTjs</span> • <span>VUE js </span>    • <span>JAVASCRIPT</span>      • <span>BOOTSTRAP</span> • <span>WEB DESIGN</span> <span>WEB CREATION</span> • <span>LOGO</span> 
                                 </p>
 
                             </div>

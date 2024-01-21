@@ -1,18 +1,18 @@
 const testimonial = [
     {
-        para: " “I rehired Arnau to do some additional design work for my private label brand. Again, he was creative and efficient in bringing my ideas to fruition. Thanks Arnau” ",
+        para: " “I rehired BRYAN to do some additional impllrmentation work for my private label brand. Again, he was creative and efficient in bringing my ideas to fruition. Thanks BRYAN” ",
         name: "_ Ronald Weasley",
         role: "CEO"
     },
     {
-        para: " “I rehired Arnau to do some additional design work for my private label brand. I believe in GOD and ALLAH. Deo gracias, Asalamalekum.” ",
-        name: "_ Christian Muslim",
-        role: "Oga mi"
+        para: "“BRYAN demonstrated a high level of expertise in frontend development. When faced with challenges, they approached problem-solving with innovation and efficiency. Their solutions not only met our requirements but exceeded our expectations. ”",
+        name: "_ Raphael Jonah",
+        role: "Manager"
     },
     {
-        para: " “I rehired Arnau to do some additional design work for my private label brand. As a champion league winner i want liverpool, chelsea, tottenham, ARSENAL, and all other subsequent clubs to know that they suck” ",
-        name: "_ Kevin De Bruyne",
-        role: "Baller"
+        para: " “Working with BRYAN was a pleasure. They were highly responsive and collaborated seamlessly with our team throughout the project. Their ability to quickly implement changes and address feedback was impressive, resulting in a smooth development process” ",
+        name: "_ Ferdinard Crow",
+        role: "Co-Worker"
     }
 ]
 

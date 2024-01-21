@@ -39,6 +39,12 @@ const Footer = () => {
                         </Link>
                     </div>
 
+                    <div className="bento">
+                        <Link to="https://bento.me/mcbryan">
+                            <i class="fa-solid fa-address-book"></i>
+                        </Link>
+                    </div>
+
                 </div>
 
             </div>
