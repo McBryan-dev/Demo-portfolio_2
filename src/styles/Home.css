@@ -484,19 +484,21 @@
 }
 
 .content .about_sect .content .slide {
-    display: inline-flex;
-    padding: 4px 0px 20px 0px;
-    justify-content: flex-end;
+    display: flex;;
+    padding: auto;
+    justify-content: center;
     align-items: center;
-    width: 1284px;
+    width: 1204px;
     height: 31px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .content .about_sect .content .slide p {
-    display: inline-flex;
+    display: flex;
     color: var(--primary-color);
     font-family: var(--grotesk-family);
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

@@ -263,7 +263,7 @@ const Home = () => {
                             <div className="slide">
 
                                 <p>
-                                   <span>HTML</span>       •    <span> CSS</span>       •     <span>REACTjs</span> • <span>VUE js </span>    • <span>JAVASCRIPT</span>      • <span>BOOTSTRAP</span> • <span>WEB DESIGN</span> <span>WEB CREATION</span> • <span>LOGO</span> 
+                                   <span>HTML</span>       •    <span> CSS</span>       •     <span>ReactJS</span> • <span>VueJS </span>    • <span>JAVASCRIPT</span>      • <span>BOOTSTRAP</span> • <span>WEB DESIGN</span> • <span>WEB CREATION</span> • <span>LOGO</span> 
                                 </p>
 
                             </div>

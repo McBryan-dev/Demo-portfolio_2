@@ -10,6 +10,7 @@ body {
     background-color: var(--bg-color);
     width: 100%;
     position: relative;
+    overflow: hidden; 
 
     animation: blurry 3s ease-in-out 0s 1 normal forwards;
 }

@@ -21,13 +21,16 @@
 .other .contnt {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     width: 1284px;
 }
 
 .other .contnt .cont {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
     width: 1284px;
     gap: 100px;
 }
